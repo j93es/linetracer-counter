@@ -6,7 +6,7 @@ BUILD_DIR=${WORK_DIR}/build/backend-admin
 
 cd      ${WORK_DIR}                                                         &&
 sudo    rm -rf ${WORK_DIR}/_tmp                                             &&
-sudo    git clone https://github.com/J93es/linetracer-counter.git _tmp      &&
+sudo    git clone https://github.com/j93es/linetracer-counter.git _tmp      &&
 sudo    rm -rf ${BUILD_DIR}/*                                               &&
 sudo    cp -r   ${TMP_DIR}/*    ${BUILD_DIR}                                &&
 sudo    cp ${WORK_DIR}/env/backend-admin-env ${BUILD_DIR}/.env              &&

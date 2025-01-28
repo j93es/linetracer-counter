@@ -6,7 +6,7 @@ BUILD_DIR=${WORK_DIR}/build/frontend-admin
 
 cd      ${WORK_DIR}                                                         &&
 sudo    rm -rf ${WORK_DIR}/_tmp                                             &&
-sudo    git clone https://github.com/J93es/linetracer-counter.git _tmp      && 
+sudo    git clone https://github.com/j93es/linetracer-counter.git _tmp      && 
 cd      ${TMP_DIR}                                                          &&
 sudo    cp ${WORK_DIR}/env/frontend-admin-env ${TMP_DIR}/.env               &&
 sudo    npm install                                                         && 
